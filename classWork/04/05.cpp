@@ -22,6 +22,8 @@ int main()
 
     cout << "vi tri cua nhiet do cao thap la ";
     cout << setw(2) << setfill('0') <<  indexLowTemp(data);
+
+    return 0;
 }
 
 void getData(float fullTemp[50][50])

@@ -1,0 +1,3 @@
+char: cin >>
+char* a[MAX]: cin.getline(a, MAX)
+string a: getline(cin, a)

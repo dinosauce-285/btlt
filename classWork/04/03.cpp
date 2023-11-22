@@ -34,6 +34,7 @@ int main (){
     cin >> x;
     cout << countOccurrences(a, m, n, x);
 
+    return 0;
 
 }
 void set2dArray(int a[50][50], int m, int n){
@@ -71,7 +72,7 @@ int sumDiagonal(int a[50][50], int m, int n){
     return sum;
 }
 int findMin(int a[50][50], int m, int n){
-    int min = 10e5;
+    int min = a[0][0];
     for (int i = 0; i < m; i++){
         for (int j = 0; j < n; j++){
             if (min > a[i][j]){

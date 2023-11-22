@@ -38,4 +38,5 @@ int main()
         }
     }
     cout << "The Winner of the Election is " << tenUcv;
+    return 0;
 }
